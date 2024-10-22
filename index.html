@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav>
+        <a href="" class="logo">
+            <span>Diya</span>
+        </a>
+        <ul class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </ul>
+        <box-icon name='menu-alt-right' id="menu"></box-icon>
+        <a href="#contact" class="btn">Contact Me</a>
+    </nav>
+
+    <section id="home">
+        <img src="" alt="">
+        <div class="info-box" style="margin-bottom: 23px;">
+            <h1><span>Hello, I'm Diya</span></h1>
+            <h3><span>B.Tech CSE Graduate</span></h3>
+            <p>As a graduate in computer science and engineering, with a background in
+                programming and software development, I have a strong interest in app
+                development and design. I have knowledge in programming languages C, Python,
+                and Java. I utilize Figma to build designs and create wireframes to make prototypes.
+                I am a self-driven, quick learner who enjoys working in a team setting, and I am
+                looking forward to the opportunity to join a vibrant software development team.</p>
+        </div>
+        <div class="btn-box">
+            <div class="btn">Hire</div>
+            <div class="btn"><a href="#contact">Contact Me</a></div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-info" style="margin-bottom: 50px;">
+            <h1 style="margin-bottom: 15px; font-size: 30px;"><span>Experience</span></h1>
+            <h3 style="color: white; opacity: 0.9; font-weight: 400; margin-bottom: 8px;">April 2023 - May 2023 Requirements Analysis Intern</h3>
+            <p style="color: white; opacity: 0.7; margin-bottom: 15px;">I served as an intern specializing in requirement analysis at UL Technology Solutions,
+                contributing from April 4, 2023, to May 12, 2023. My responsibilities encompassed the
+                analysis of project requirements and functionality mapping of stakeholders pertaining
+                to a live project being developed by ULTS. During my tenure, I effectively utilized draw.io
+                to construct process flows, and leveraged Figma to design wireframes. Furthermore, I
+                undertook the creation of an innovative user interface within the Figma platform for the
+                aforementioned application.</p>
+                <h3 style="color: white; opacity: 0.9; font-weight: 400; margin-bottom: 8px;">Jan 2023 - May 2023
+                    Google Developers Students Club GECW Project Team</h3>
+                <p style="color: white; opacity: 0.7;">As a volunteer at GDSC I had the oppurtunity to be a part of the project team to
+                    participate in peer learning sessions and attend workshops that is helping me learn
+                    various google technologies such as flutter and work with the team to develop projects
+                    for GDSC GECW.</p>
+        </div>
+
+        <div class="skills-card">
+            <h3 class="title">Skills</h3>
+            <div class="skill_bar">
+                <label>Python</label>
+                <div class="progress" data-skill="python"></div>
+            </div>
+            <div class="skill_bar">
+                <label>Java</label>
+                <div class="progress" data-skill="java"></div>
+            </div>
+            <div class="skill_bar">
+                <label>C Programming</label>
+                <div class="progress" data-skill="c"></div>
+            </div>
+            <div class="skill_bar">
+                <label>Machine Learning <span style="font-size: small;">(Basics)</span></label>
+                <div class="progress" data-skill="ml"></div>
+            </div>
+            <div class="skill_bar">
+                <label>Figma</label>
+                <div class="progress" data-skill="figma"></div>
+            </div>
+        </div> 
+
+    </section>
+
+    <section id="project">
+        <h1 class="header" style="margin-bottom: 15px;">
+            <span>Projects</span>
+        </h1>
+        <div class="projects-container">
+            <div class="box">
+                <h1 style="opacity: 0.9;">YouTurn Application - Figma and Flutter</h1>
+                <p>Worked with a team to design the project 'YouTurn'. The application design was made using figma. The prototype illustrated the user-centric workflow of the application.</p>
+            </div>
+            <div class="box">
+                <h1 style="line-height: 28px; opacity:0.9">Machine Fault Detection through Vibration
+                    Analysis using Machine Learning SVM model design</h1>
+                <p>Created an SVM model for the machine fault detection and analysis.Designed and run in Google colab platform. Obtained accuracy - 96%</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="header"><span>Contact</span></h1>
+        <form action="#">
+            <div class="input-box">
+                <span>Full Name</span>
+                <input type="text" placeholder="Enter your Full Name">
+            </div>
+            <div class="input-box">
+                <span>Email</span>
+                <input type="text" placeholder="Enter your Email">
+            </div>
+            <div class="input-box">
+                <span>Message</span>
+                <input type="text" placeholder="Enter your Message">
+            </div>
+            <div class="btn">Submit</div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="col-left">
+            <div class="col-box">
+                <span><i class='bx bx-location-plus'></i></span>
+                <span>SkandaVihar Kollam Koyilandi</span>
+            </div>
+        </div>
+        <div class="col-left">
+            <div class="col-box">
+                <span><i class='bx bxs-phone'></i></span>
+                <span>9048515167</span>
+            </div>
+        </div>
+        <div class="col-left">
+            <div class="col-box">
+                <span><i class='bx bxs-envelope'></i></span>
+                <span>diyanoopuram@gmail.com</span>
+            </div>
+        </div>
+    
+        <div class="col-right">
+            <div class="social">
+                <span><i class='bx bxl-github'></i></span>
+                <span><i class='bx bxl-linkedin-square'></i></span>
+                <span><i class='bx bxl-instagram-alt'></i></span>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
